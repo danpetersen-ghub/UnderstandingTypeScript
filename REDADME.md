@@ -19,3 +19,4 @@ Course Overview
 ## Instructor
 
 Maximilian Schwarzmüller is an AWS certified professional web developer and instructor who has created several popular Udemy courses on web development.
+
