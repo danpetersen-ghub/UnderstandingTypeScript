@@ -23,9 +23,30 @@ then:
 
 In ``` package.json ``` add:
 
-```
+```JSON
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
      "start" : "lite-server"
   },
 ```
+
+### Update
+
+2 errors found in this set up:
+
+1. "Cannot redeclare block-scoped variable 'number2'.ts(2451)"
+Resolution:
+ add a ```tsconfig.json``` to root
+
+```JSON
+{
+    "compilerOptions": {
+        "lib": ["es6"]
+      }
+}
+```
+
+2. "[ts] Cannot find name 'console'."
+Resolution:
+I need to add types to the directory. Install the ```@types/node```:
+run ```npm install @types/node --save-dev```
