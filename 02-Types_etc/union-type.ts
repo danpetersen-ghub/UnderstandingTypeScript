@@ -3,7 +3,7 @@ const getData = async (id: number | string) => {
         if (id === 1) {
             setTimeout(() => {
                 resolve({ "status": 200, "message": "OK" });
-            }, 1000);
+            }, 4000);
         } else if (typeof id === "string") {
             reject(new Error("Invalid ID"));
         } else {
