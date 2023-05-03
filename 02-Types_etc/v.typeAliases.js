@@ -1,4 +1,4 @@
 function hello(name, message) {
-    return console.log("Hello ".concat(name, " the message today is ").concat(message));
+    return "Hello ".concat(name, " the message today is ").concat(message);
 }
-hello("dan", "its dark today");
+console.log(hello("dan", "its dark today"));
