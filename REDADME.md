@@ -3,7 +3,7 @@
 This repository contains code and exercises from the Udemy course "Understanding TypeScript" by Maximilian Schwarzmüller. In this course, you will learn TypeScript from the basics to advanced features, including setting up workflows and using TypeScript with popular frameworks like ReactJS.
 Course Overview
 
-## The course covers the following topics:
+## The course covers the following topics
 
     What TypeScript is and why it's a powerful addition to JavaScript
     TypeScript's features and how to use them, including types, classes, modules, interfaces, generics, and decorators
@@ -20,3 +20,10 @@ Course Overview
 
 Maximilian Schwarzmüller is an AWS certified professional web developer and instructor who has created several popular Udemy courses on web development.
 
+# notes on windows machine
+
+For some reason, probably due to to my PATH issues.
+
+run ```npx tsc --watch``
+
+rather than ```tsc --watch```.

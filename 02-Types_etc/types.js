@@ -23,3 +23,22 @@ for (var _i = 0, _a = person.sports; _i < _a.length; _i++) {
     var sport = _a[_i];
     console.log(sport.toUpperCase());
 }
+//function printResult(num: number): void 
+/*
+
+: void  meand that it doesnt return anything - this doesnt exist in regular JS
+this is the return tyoe
+
+*/
+function printResult(num) {
+    console.log('result is: ' + num);
+    return;
+}
+function printResult2(num) {
+    console.log('result is: ' + num);
+}
+function printResult3(num) {
+    console.log('result is: ' + num);
+}
+add(number1, number2);
+printResult(add(10, 25));
